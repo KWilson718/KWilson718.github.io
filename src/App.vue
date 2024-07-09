@@ -9,9 +9,3 @@ import FooterComp from './components/FooterComp.vue'
   <HomePageComp/>
   <FooterComp/>
 </template>
-
-<style scoped>
-  *{
-    background-color: lightslategray;
-  }
-</style>
