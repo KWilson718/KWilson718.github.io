@@ -9,3 +9,14 @@ import FooterComp from './components/FooterComp.vue'
   <HomePageComp/>
   <FooterComp/>
 </template>
+
+<style scoped>
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .content{
+    padding-top: 4.5rem;
+  }
+</style>
