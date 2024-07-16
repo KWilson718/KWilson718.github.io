@@ -1,27 +1,37 @@
+<script>
+    import navigationMethods from '@/mixins/navigation.js';
+
+    export default{
+        name: 'HeaderComponent',
+        methods: {
+            ...navigationMethods.methods,
+        }
+    }
+</script>
+
 <template>
     <div id="navbarContainer" class="navbar">
         <div id="leftSide">
             <img id="logo" src="../assets/favicon/android-chrome-512x512.png" alt="Current Logo">
         </div>
         <div id="middle">
-            <!-- <h2>Home | About | Experience | Projects | Resume | Misc</h2> -->
-            <div class="navButton">
-                <h2>Home</h2>
+            <div class="navButton" @click="goToHome">
+                <button>Home</button>
             </div>
-            <div class="navButton">
-                <h2>About</h2>
+            <div class="navButton" @click="goToAbout">
+                <button>About</button>
             </div>
-            <div class="navButton">
-                <h2>Experience</h2>
+            <div class="navButton" @click="goToExperience">
+                <button>Experience</button>
             </div>
-            <div class="navButton">
-                <h2>Projects</h2>
+            <div class="navButton" @click="goToProjects">
+                <button>Projects</button>
             </div>
-            <div class="navButton">
-                <h2>Resume</h2>
+            <div class="navButton" @click="goToResume">
+                <button>Resume</button>
             </div>
-            <div class="navButton">
-                <h2>Misc</h2>
+            <div class="navButton" @click="goToMisc">
+                <button>Misc</button>
             </div>
         </div>
         <div id="rightBumper"></div>
