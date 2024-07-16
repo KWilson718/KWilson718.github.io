@@ -1,12 +1,13 @@
 <script setup>
 import HeaderComp from './components/HeaderComp.vue'
-import HomePageComp from './components/HomePageComp.vue'
+import MainContentBumper from './components/MainContentBumper.vue'
 import FooterComp from './components/FooterComp.vue'
 </script>
 
 <template>
   <HeaderComp/>
-  <HomePageComp/>
+  <MainContentBumper/>
+  <router-view></router-view>
   <FooterComp/>
 </template>
 
