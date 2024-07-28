@@ -16,22 +16,22 @@
         </div>
         <div id="middle">
             <div class="navButton" @click="navigateTo('/personal-portfolio/')">
-                <button>Home</button>
+                <h1 class="navButtonText">Home</h1>
             </div>
             <div class="navButton" @click="navigateTo('/personal-portfolio/about')">
-                <button>About</button>
+                <h1 class="navButtonText">About</h1>
             </div>
             <div class="navButton" @click="navigateTo('/personal-portfolio/experience')">
-                <button>Experience</button>
+                <h1 class="navButtonText">Experience</h1>
             </div>
             <div class="navButton" @click="navigateTo('/personal-portfolio/projects')">
-                <button>Projects</button>
+                <h1 class="navButtonText">Projects</h1>
             </div>
             <div class="navButton" @click="navigateTo('/personal-portfolio/resume')">
-                <button>Resume</button>
+                <h1 class="navButtonText">Resume</h1>
             </div>
             <div class="navButton" @click="navigateTo('/personal-portfolio/misc')">
-                <button>Misc</button>
+                <h1 class="navButtonText">Misc</h1>
             </div>
         </div>
         <div id="rightBumper"></div>
@@ -49,6 +49,9 @@
     }
     #leftSide{
         flex: 1;
+        display: flex;
+        align-items: left;
+        justify-items: flex-start;
     }
     #middle{
         flex: 3;
@@ -65,11 +68,15 @@
     .navButton{
         flex: 1;
     }
+    .navButtonText{
+        font-size: 1.12rem;
+    }
 
     /* Handles sizing of the logo image to the top left */
     #logo{
         padding: .5rem;
         padding-top: .6rem;
+        margin-left: .75rem;
         width: 4rem;
         height: 4rem;
     }
