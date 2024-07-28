@@ -15,22 +15,22 @@
             <img id="logo" src="../assets/favicon/android-chrome-512x512.png" alt="Current Logo">
         </div>
         <div id="middle">
-            <div class="navButton" @click="goToHome">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/')">
                 <button>Home</button>
             </div>
-            <div class="navButton" @click="goToAbout">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/about')">
                 <button>About</button>
             </div>
-            <div class="navButton" @click="goToExperience">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/experience')">
                 <button>Experience</button>
             </div>
-            <div class="navButton" @click="goToProjects">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/projects')">
                 <button>Projects</button>
             </div>
-            <div class="navButton" @click="goToResume">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/resume')">
                 <button>Resume</button>
             </div>
-            <div class="navButton" @click="goToMisc">
+            <div class="navButton" @click="navigateTo('/personal-portfolio/misc')">
                 <button>Misc</button>
             </div>
         </div>
@@ -69,7 +69,8 @@
     /* Handles sizing of the logo image to the top left */
     #logo{
         padding: .5rem;
-        width: 6rem;
-        height: 6rem;
+        padding-top: .6rem;
+        width: 4rem;
+        height: 4rem;
     }
 </style>
