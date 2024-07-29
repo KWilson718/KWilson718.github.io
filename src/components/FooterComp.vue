@@ -1,36 +1,5 @@
 <template>
     <div id="footerContainer">
-        <!-- <div id="leftSide">
-            <h1>Kyle Wilson</h1>
-        </div>
-        <div id="center">
-            
-        </div>
-        <div id="rightSide">
-            <table id="socialTable">
-                <tr>
-                    <th colspan="3">
-                        <p>Links for Social Media</p>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <p>GitHub:</p>
-                    </td>
-                    <td colspan="2">
-                        <a href="https://github.com/KWilson718" class="socialLink">github.com/KWilson718</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>LinkedIn:</p>
-                    </td>
-                    <td colspan="2">
-                        <a href="https://www.linkedin.com/in/wilson--kyle/" class="socialLink">linkedin.com/in/wilson--kyle</a>
-                    </td>
-                </tr>
-            </table>
-        </div> -->
         <table class="footerTable">
             <thead>
                 <tr>
@@ -56,6 +25,7 @@
     margin: 0rem;
     display: flex;
     justify-content: space-evenly;
+    background-color: gray;
 }
 #leftSide{
     flex: 1;
@@ -82,7 +52,7 @@
 .socialLink:visited,
 .socialLink:hover{
     text-decoration: none;
-    color: lightgray;
+    color: white;
 }
 .socialLink:active{
     text-decoration: underline;
