@@ -21,7 +21,7 @@ import FooterComp from './components/FooterComp.vue'
     padding-top: 3.65rem;
   }
   .home, .about, .experience, .projects, .resume, .misc{
-    min-height: 100vh;
+    min-height: 83vh;
   }
 
   .home, .about, .experience, .projects, .misc{
