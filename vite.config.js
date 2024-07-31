@@ -9,6 +9,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     }
   },
-  // base: '/personal-portfolio/', // This is the base url of the website
   plugins: [vue()],
 })
