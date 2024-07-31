@@ -1,5 +1,5 @@
 <template>
     <div class="resume">
-        <h3>Resume</h3>
+        <iframe src="/personal-portfolio/pdfs/Spring2024Resume.pdf" width="100%" height="1000vh" frameborder="0"></iframe>
     </div>
 </template>
