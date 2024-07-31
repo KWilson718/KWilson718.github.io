@@ -12,7 +12,7 @@
 <template>
     <div id="navbarContainer" class="navbar">
         <div id="leftSide">
-            <img id="logo" src="../assets/favicon/android-chrome-512x512.png" alt="Current Logo">
+            <img id="logo" src="../assets/favicon/android-chrome-512x512.png" alt="Current Logo" @click="navigateTo('/')">
         </div>
         <div id="middle">
             <div class="navButton" @click="navigateTo('/')">
