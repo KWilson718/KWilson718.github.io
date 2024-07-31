@@ -11,7 +11,7 @@ This website is intended to be deployed to GitHub pages using the subtree branch
 
 ## This should fully update everything to then be found on the following link
 
-- https://kwilson718.github.io/personal-portfolio/
+- https://kwilson718.github.io/
 
 # Technologies / Frameworks Used
 
