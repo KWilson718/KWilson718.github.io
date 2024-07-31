@@ -20,4 +20,7 @@ import FooterComp from './components/FooterComp.vue'
   .content{
     padding-top: 1.65rem;
   }
+  .home, .about, .experience, .projects, .resume, .misc{
+    min-height: 80vh;
+  }
 </style>
