@@ -18,6 +18,6 @@ import FooterComp from './components/FooterComp.vue'
     width: 100%;
   }
   .content{
-    padding-top: 4.5rem;
+    padding-top: 1.65rem;
   }
 </style>

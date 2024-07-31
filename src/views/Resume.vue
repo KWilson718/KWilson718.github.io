@@ -1,6 +1,6 @@
 <template>
     <div class="resume">
-        <iframe src="/pdfs/Spring2024Resume.pdf" width="100%" height="600vh" frameborder="0"></iframe>
+        <iframe src="/pdfs/Spring2024Resume.pdf" width="100%" height="610vh" frameborder="0"></iframe>
     </div>
 </template>
 

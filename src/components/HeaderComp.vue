@@ -74,10 +74,10 @@
 
     /* Handles sizing of the logo image to the top left */
     #logo{
-        padding: .5rem;
-        padding-top: .6rem;
-        margin-left: .75rem;
-        width: 4rem;
-        height: 4rem;
+        padding: .25rem;
+        padding-top: .35rem;
+        margin-left: .25rem;
+        width: 3rem;
+        height: 3rem;
     }
 </style>
