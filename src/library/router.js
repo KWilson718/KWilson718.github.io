@@ -9,32 +9,32 @@ import Misc from '@/views/Misc.vue'
 
 const routes = [
     {
-        path: '/personal-portfolio/', 
+        path: '/', 
         name: 'Home', 
         component: Home,
     },
     {
-        path: '/personal-portfolio/about',
+        path: '/about',
         name: 'About',
         component: About,
     },
     {
-        path: '/personal-portfolio/Experience',
+        path: '/Experience',
         name: 'Experience',
         component: Experience,
     },
     {
-        path: '/personal-portfolio/Projects',
+        path: '/Projects',
         name: 'Projects',
         component: Projects,
     },
     {
-        path: '/personal-portfolio/Resume',
+        path: '/Resume',
         name: 'Resume',
         component: Resume,
     },
     {
-        path: '/personal-portfolio/Misc',
+        path: '/Misc',
         name: 'Misc',
         component: Misc,
     },

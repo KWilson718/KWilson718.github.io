@@ -15,22 +15,22 @@
             <img id="logo" src="../assets/favicon/android-chrome-512x512.png" alt="Current Logo">
         </div>
         <div id="middle">
-            <div class="navButton" @click="navigateTo('/personal-portfolio/')">
+            <div class="navButton" @click="navigateTo('/')">
                 <h1 class="navButtonText">Home</h1>
             </div>
-            <div class="navButton" @click="navigateTo('/personal-portfolio/about')">
+            <div class="navButton" @click="navigateTo('/about')">
                 <h1 class="navButtonText">About</h1>
             </div>
-            <div class="navButton" @click="navigateTo('/personal-portfolio/experience')">
+            <div class="navButton" @click="navigateTo('/experience')">
                 <h1 class="navButtonText">Experience</h1>
             </div>
-            <div class="navButton" @click="navigateTo('/personal-portfolio/projects')">
+            <div class="navButton" @click="navigateTo('/projects')">
                 <h1 class="navButtonText">Projects</h1>
             </div>
-            <div class="navButton" @click="navigateTo('/personal-portfolio/resume')">
+            <div class="navButton" @click="navigateTo('/resume')">
                 <h1 class="navButtonText">Resume</h1>
             </div>
-            <div class="navButton" @click="navigateTo('/personal-portfolio/misc')">
+            <div class="navButton" @click="navigateTo('/misc')">
                 <h1 class="navButtonText">Misc</h1>
             </div>
         </div>
